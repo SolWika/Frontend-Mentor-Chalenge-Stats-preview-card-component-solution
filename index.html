@@ -9,41 +9,33 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
     rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/style.css">
   <title>Frontend Mentor | Stats preview card component</title>
-  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-
-  <header class="clearfix">
-    <div class="picture">
-      <div class="picmobile"><img src="images/image-header-mobile.jpg" alt=""></div>
-      <div class="picdesc"><img src="images/image-header-desktop.jpg" alt=""></div>
-    </div>
-
-    <div class="text">
-      <h1>Get <strong>insights</strong> that help your business grow.</h1>
-      <p> Discover the benefits of data analytics and make better decisions regarding revenue, customer
-        experience, and overall efficiency.</p>
-      <div class="head clearfix">
-        <h2>
-          <div>10k+</div> companies
-        </h2>
-        <h2>
-          <div>314</div> templates
-        </h2>
-        <h2>
-          <div>12m+</div> queries
-        </h2>
-      </div>
-    </div>
-  </header>
-
-  <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="https://github.com/SolWika">Weronika Kurek-Pękala</a>.
-  </footer>
-
+  <div class="all">
+    <header class="head">
+      <aside class="picture">
+        <div class="picture-color"></div>
+      </aside>
+      <section class="text">
+        <h1 class="text-title">Get <span class="purple">insights</span> that help your business grow.</h1>
+        <p class="text-paragaph">Discover the benefits of data analytics and make better decisions regarding revenue,
+          customer
+          experience, and overall efficiency.</p>
+        <div class="list">
+          <div class="list-item"><span class="distinction small">10k+</span> companies</div>
+          <div class="list-item"><span class="distinction">314</span> templates</div>
+          <div class="list-item"><span class="distinction">12m+</span> queries</div>
+        </div>
+      </section>
+    </header>
+    <footer class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Weronika Kurek-Pękala</a>.
+    </footer>
+  </div>
 </body>
 
 </html>
